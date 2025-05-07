@@ -10,6 +10,15 @@
 <project name="CV_Generator" default="default" basedir=".">
     <description>Builds, tests, and runs the project CV Generator.</description>
     <import file="nbproject/build-impl.xml"/>
+
+    <target name="dependencies">
+        <get src="[iText PDF JAR URL]" dest="lib/itextpdf.jar" skipexisting="true"/>
+        <get src="[RS2XML JAR URL]" dest="lib/rs2xml.jar" skipexisting="true"/>
+    </target>
+
+    <target name="compile" depends="dependencies">
+    </target>
+
     <!--
 
     There exist several targets which are by default empty and which can be 

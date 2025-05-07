@@ -2,8 +2,13 @@
   <library name="CV_Generator">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/dist/CV_Generator.jar!/" />
+      <root url="jar://$PROJECT_DIR$/itextpdf-5.5.13.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/itextpdf-5.5.13.2 (1).jar!/" />
+      <root url="jar://$PROJECT_DIR$/mysql-connector-j-9.0.0.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/itext-pdfa-5.5.9-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES />
   </library>
 </component>

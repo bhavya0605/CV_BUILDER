@@ -21,7 +21,7 @@ public class db {
         
         try{
             Class.forName("org.sqlite.JDBC");
-            Connection conn =DriverManager.getConnection("jdbc:sqlite:C:\\Users\\Punit\\Downloads\\CV-Builder\\CV Generator\\cvdatabase.sqlite");
+            Connection conn =DriverManager.getConnection("jdbc:sqlite:C:\\Users\\Ayush\\Music\\CV Builder\\CV-Builder\\cvdatabase.sqlite");
             //JOptionPane.showMessageDialog(null, "Connection to database is successful");
       
             return conn;
